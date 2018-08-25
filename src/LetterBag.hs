@@ -4,7 +4,6 @@ module LetterBag
     ) where
 
 import LetterType
-import System.Random.Shuffle
 
 createBag :: [TileDefinition] -> LetterBag
 createBag version = concat $ map duplicateTile version
