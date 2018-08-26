@@ -35,6 +35,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - Scrabble
+    - random
 
 tests:
   Scrabble-test:
@@ -47,3 +48,4 @@ tests:
     dependencies:
     - Scrabble
     - hspec
+    - random
