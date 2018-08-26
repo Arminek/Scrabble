@@ -21,6 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/Armi
 
 dependencies:
 - base >= 4.7 && < 5
+- random
 
 library:
   source-dirs: src
@@ -35,6 +36,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - Scrabble
+    - random
 
 tests:
   Scrabble-test:
@@ -47,3 +49,4 @@ tests:
     dependencies:
     - Scrabble
     - hspec
+    - random
